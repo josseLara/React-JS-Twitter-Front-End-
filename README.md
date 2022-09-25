@@ -5,21 +5,27 @@
 ![2022-09-25 12 17 23 localhost bf815fa88d9a](https://user-images.githubusercontent.com/99273526/192151145-72e8daca-bdb1-4973-a653-749190fa1233.png)
 
 <h2>Explorar</h2>
+
 ![2022-09-25 12 05 25 localhost 42fbe34df630](https://user-images.githubusercontent.com/99273526/192151174-bea95503-4395-4949-afab-670941f0eaef.png)
 
 <h2>Notificaciones</h2>
+
 ![2022-09-25 12 05 47 localhost 53fa1eac30bb](https://user-images.githubusercontent.com/99273526/192151182-ac2f2110-36bf-44d6-bb5e-030e70f04545.png)
 
 <h2>Mensajes</h2>
+
 ![2022-09-25 12 06 18 localhost 5eec9fc9e188](https://user-images.githubusercontent.com/99273526/192151184-0e1a3342-ea75-415d-bea3-97072af1c9d6.png)
 
 <h2>Guardados</h2>
+
 ![2022-09-25 12 10 48 localhost bc2f6ffd7544](https://user-images.githubusercontent.com/99273526/192151188-34450dd7-7d91-4698-823f-0b529584c421.png)
 
 <h2>Listas</h2>
+
 ![2022-09-25 12 11 30 localhost c4550ebe0d48](https://user-images.githubusercontent.com/99273526/192151193-9dace85c-1400-4c55-87c5-371bede3f117.png)
 
 <h2>Perfil</h2>
+
 ![2022-09-25 12 11 49 localhost 27086fce596e](https://user-images.githubusercontent.com/99273526/192151196-481a07cf-3bd2-46b9-85aa-b8a96516319e.png)
 
 
