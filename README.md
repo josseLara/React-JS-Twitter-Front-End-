@@ -1,11 +1,25 @@
-Previsualizaciones :
+<h1>Previsualizaciones :</h1>
  
-![2022-09-25 01 56 50 localhost 67ac833632bf](https://user-images.githubusercontent.com/99273526/192129052-fa4ed11f-5291-42b5-8abb-057f062b49bb.png)
-![2022-09-25 01 56 58 localhost 78af5f90e8cf](https://user-images.githubusercontent.com/99273526/192129056-f696a76d-d983-47b7-a36b-6287bf9700f0.png)
-![2022-09-25 01 57 05 localhost adf66df679ca](https://user-images.githubusercontent.com/99273526/192129057-7834ab8f-29c7-46df-b17f-2c476af81d4b.png)
-![2022-09-25 01 58 08 localhost 1fdb2313b381](https://user-images.githubusercontent.com/99273526/192129058-731a7722-65a2-4c67-b178-4819efe155e0.png)
-![2022-09-25 01 58 16 localhost 6646dbd9222e](https://user-images.githubusercontent.com/99273526/192129059-3ec67178-fa1c-4f75-a312-dfa2699f806f.png)
-![2022-09-25 01 56 07 localhost ab4207cfbe66](https://user-images.githubusercontent.com/99273526/192129063-dcd6a78a-20eb-4eee-85c3-e61dd65e3ec9.png)
+<h2>Inicio</h2>
+![2022-09-25 12 04 11 localhost 8c482ffae41f](https://user-images.githubusercontent.com/99273526/192150948-9a9583ac-8077-458a-bab6-b94db1d3311e.png)
+
+<h2>Explorar</h2>
+![2022-09-25 12 05 25 localhost 42fbe34df630](https://user-images.githubusercontent.com/99273526/192150951-8e3c8551-bbd3-4827-b2d5-a64b62707bb1.png)
+
+<h2>Notificaciones</h2>
+![2022-09-25 12 05 47 localhost 53fa1eac30bb](https://user-images.githubusercontent.com/99273526/192150953-bf28c149-f983-487c-9645-e7b5d6a43af0.png)
+
+<h2>Mensajes</h2>
+![2022-09-25 12 06 18 localhost 5eec9fc9e188](https://user-images.githubusercontent.com/99273526/192150962-a034ee4a-9d2e-4d4c-b368-d4e64797b111.png)
+
+<h2>Guardados</h2>
+![2022-09-25 12 10 48 localhost bc2f6ffd7544](https://user-images.githubusercontent.com/99273526/192150964-94d23516-9975-4ed9-81fe-b7c2e75066ac.png)
+
+<h2>Listas</h2>
+![2022-09-25 12 11 30 localhost c4550ebe0d48](https://user-images.githubusercontent.com/99273526/192150967-5833d245-b5d6-4c7d-b5db-7abd7b96005b.png)
+
+<h2>Perfil</h2>
+![2022-09-25 12 11 49 localhost 27086fce596e](https://user-images.githubusercontent.com/99273526/192150973-bad093ce-66c8-4faa-868a-9106821a0f2b.png)
 
 
 # Getting Started with Create React App
