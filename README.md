@@ -1,7 +1,8 @@
 <h1>Previsualizaciones :</h1>
  
 <h2>Inicio</h2>
-![2022-09-25 12 04 11 localhost 8c482ffae41f](https://user-images.githubusercontent.com/99273526/192150948-9a9583ac-8077-458a-bab6-b94db1d3311e.png)
+
+![2022-09-25 12 17 23 localhost bf815fa88d9a](https://user-images.githubusercontent.com/99273526/192151145-72e8daca-bdb1-4973-a653-749190fa1233.png)
 
 <h2>Explorar</h2>
 ![2022-09-25 12 05 25 localhost 42fbe34df630](https://user-images.githubusercontent.com/99273526/192150951-8e3c8551-bbd3-4827-b2d5-a64b62707bb1.png)
