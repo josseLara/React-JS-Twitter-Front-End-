@@ -6,7 +6,7 @@
 
 <h2>Explorar</h2>
 
-![2022-09-25 12 05 25 localhost 42fbe34df630](https://user-images.githubusercontent.com/99273526/192151174-bea95503-4395-4949-afab-670941f0eaef.png)
+![2022-09-25 12 20 47 localhost 2c32ed7bad9e](https://user-images.githubusercontent.com/99273526/192151293-2ca1d6ab-96cd-47ee-85cf-7f67bf369219.png)
 
 <h2>Notificaciones</h2>
 
@@ -18,7 +18,7 @@
 
 <h2>Guardados</h2>
 
-![2022-09-25 12 10 48 localhost bc2f6ffd7544](https://user-images.githubusercontent.com/99273526/192151188-34450dd7-7d91-4698-823f-0b529584c421.png)
+![2022-09-25 12 20 54 localhost 86ce8372367c](https://user-images.githubusercontent.com/99273526/192151302-456f1052-0926-4b6e-99c3-dd57be95f0e9.png)
 
 <h2>Listas</h2>
 
