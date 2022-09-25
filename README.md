@@ -5,7 +5,7 @@
 
 <h2>Inicio</h2>
 
-![Uploading 2022-09-25 18.25.11 localhost 8bb83277de35.png…]()
+![2022-09-25 18 25 11 localhost 8bb83277de35](https://user-images.githubusercontent.com/99273526/192166358-7216fefa-36f0-4f74-87aa-f80edebac552.png)
 
 <h2>Explorar</h2>
 
