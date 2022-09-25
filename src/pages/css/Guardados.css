@@ -43,6 +43,10 @@
     align-items: center;
 }
 
+.guardados .header h3{
+  color: #fff;
+}
+
 .guardados .header svg {
     margin-right: 20px;
 }

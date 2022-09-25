@@ -1,3 +1,4 @@
+
 import Left_Menu from "./components/Left_Menu/Left_Menu";
 import Right_Menu from "./components/Right_Menu/Right_Menu";
 import Tweet from "../pages/components/Tweet/Tweet";
@@ -27,24 +28,24 @@ const usuario_tweets = [{
 function Guardados() {
     return (
         <>
-            <Left_Menu></Left_Menu>
+            <Left_Menu ></Left_Menu>
             <section className="guardados">
                 <div className="header">
                     <h3>Guardados</h3>
                     <Svg_Conf fill="#fff" width={20} height={20} onClick={( e ) => console.log( e )} />
                 </div>
-                <div className="tweets">
+                <div className="tweets" >
                     {
-                        usuario_tweets.map( ( props, i ) => {
+                        usuario_tweets.map( ( props ) => {
                             return (
                                 <>
                                     <Tweet
-                                        key={Math.random()}
                                         img_perfil={props.img_perfil}
                                         nombre={props.tweet_message.nombre}
                                         hora={props.tweet_message.hora}
                                         texto={props.tweet_message.texto}
                                         img={props.tweet_message.img}
+                                        key={Math.random()}
                                     />
                                 </>
                             );
@@ -52,7 +53,7 @@ function Guardados() {
                     }
                 </div>
             </section>
-            <Right_Menu></Right_Menu>
+            <Right_Menu ></Right_Menu>
         </>
     );
 }

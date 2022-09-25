@@ -43,7 +43,7 @@ function Home() {
                 <div className="tweet-box">
                     <div className="tweet-message">
                         <img
-                            src="https://images.pexels.com/photos/1820559/pexels-photo-1820559.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                            src="https://images.pexels.com/photos/3778199/pexels-photo-3778199.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             alt="profile picture"
                             className="avatar"
                         />
@@ -51,7 +51,7 @@ function Home() {
                             className="tweet-textarea"
                             rows="4"
                             placeholder="Que estas Pensando?"
-                            autofocus
+                            autoFocus
                         ></textarea>
                     </div>
                     <div className="tweet-message">
