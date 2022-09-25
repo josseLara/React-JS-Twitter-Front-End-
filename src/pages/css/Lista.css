@@ -1,0 +1,179 @@
+.lista {
+    width: 100%;
+    height: 100%;
+    flex: 2;
+    border-left: 1px solid #726f6f70;
+    border-right: 1px solid #726f6f70;
+    padding: 17px;
+    overflow-y: scroll;
+}
+
+/* barra de scroll */
+.lista::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  
+  .lista::-webkit-scrollbar:vertical {
+    width: 2px;
+  }
+  
+  .lista::-webkit-scrollbar-button:increment,
+  .lista::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  .lista::-webkit-scrollbar:horizontal {
+    height: 10px;
+  }
+  
+  .lista::-webkit-scrollbar-thumb {
+    background-color: #7979794f;
+    border-radius: 20px;
+    border: 2px solid transparent;
+  }
+  
+  .lista::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  
+  
+  /*  */
+
+/* header */
+.lista-header{
+    width: 100%;
+    display: flex;
+    max-height: 53px;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.lista-header-user{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+.lista-header-user h3{
+    font-size: 20px;
+    margin: 0;
+}
+.lista-header-user span{
+    opacity: 0.4;
+}
+.lista-header-icons{
+    display: flex;
+    gap: 20px;
+}
+
+/* content */
+
+.lista-content{
+    color: #fff;
+    margin-top: 17px;
+    padding: 10px;
+}
+
+/* title */
+.lista-content-title{
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+    margin-bottom: 10px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.lista-content-title b{
+    font-size: 20px;
+}
+
+.lista-content-title .lista-title-p{
+    padding: 32px 43px;
+    opacity: 0.4;
+    font-size: 15px;
+}
+
+/* content body */
+.lista-content-body{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.lista-content-body b{
+    font-size: 20px;
+    line-height: 24px;
+    margin: 12px;
+
+}
+
+.card-title-img{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-lista{
+    display: flex;
+    gap: 10px;
+}
+.card-lista-content{
+    width: 100%;
+    display: flex;
+    gap: 16px;
+}
+
+.card-lista-user{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-lista-user strong {
+    font-size: 15px;
+}
+
+.lista-user-info{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 3px;
+}
+
+.lista-user-info img{
+    width: 16px;
+    border-radius: 50%;
+    
+}
+
+.lista-user-info b{
+    font-weight: bolder;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.lista-user-info span{
+    font-size: 13px;
+    opacity: 0.4;
+    margin: 0;
+}
+
+.card-lista-btn{
+    width: 77px;
+    height: 32px;
+    border: 1px solid white;
+    background-color: black;
+    color: #fff;
+    border-radius: 90px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.lista-content-body a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: #31a4f1;
+    margin-left: 16px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}

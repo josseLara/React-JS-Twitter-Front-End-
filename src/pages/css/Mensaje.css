@@ -1,0 +1,94 @@
+.mensaje-content{
+    flex: 2;
+    border-left: 1px solid #726f6f70;
+    border-right: 1px solid #726f6f70;
+    overflow-y: hidden;
+    padding-left: 17px;
+}
+
+/* header */
+.mensaje-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mensaje-header h3{
+    color: #fff;
+    font-size: 20px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.mensaje-icons{
+    display: flex;
+    gap: 9px;
+    margin-right: 10px;
+}
+
+/* mensaje body */
+
+.mensaje-body{
+    display: flex;
+    flex-direction: column;
+    color: #fff;    
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    align-items: stretch;
+    padding: 12px;
+}
+
+.mensaje-body h1{
+    width: 80%;
+    font-size: 31px;
+    line-height: 36px;
+}
+
+.mensaje-body p{
+    width: 70%;
+    font-size: 15px;
+    line-height: 20px;
+    opacity: 0.4;
+    margin-bottom: 30px;
+    
+}
+
+.mensaje-body button{
+    width: 222px;
+    height: 52px;
+    background: linear-gradient(#1d9bf0 90%,#1d9bf0 10%);
+    border: none;
+    border-radius: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* mensaje right */
+
+.mensaje-right{
+    flex: 2.7;
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    
+}
+
+.mensaje-body-right{
+    width: 336px;
+    margin-top: 100px;
+}
+
+.mensaje-body-right p{
+    width: 90%;
+}
+
+
+
+  
+  @media (max-width: 900px) {
+    .mensaje-right{
+        display: none;
+    }
+  }

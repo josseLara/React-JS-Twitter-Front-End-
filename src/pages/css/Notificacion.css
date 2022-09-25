@@ -1,0 +1,61 @@
+.notificacion {
+    flex: 2;
+    border-left: 1px solid #726f6f70;
+    border-right: 1px solid #726f6f70;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+.notificacion .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 10px 10px 10px 0px;
+    border-bottom: 1px solid #726f6f70;
+}
+
+.header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+
+.header b {
+    line-height: 20px;
+    font-size: 20px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.header-nav-list {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.header-nav-list li:first-child::after{
+    content: " ";
+    margin-top: 13px;
+    width: 100%;
+    height: 4px;
+    display: block;
+    background-color: #1d9bf0;
+    border-radius: 90px;
+}
+.header-nav-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+/* cards */
+
+.noticacion-cards {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,146 @@
+.explorar{
+    flex: 2;
+    border-left: 1px solid #726f6f70;
+    border-right: 1px solid #726f6f70;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+/* barra de scroll */
+.explorar::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  
+  .explorar::-webkit-scrollbar:vertical {
+    width: 2px;
+  }
+  
+  .explorar::-webkit-scrollbar-button:increment,
+  .explorar::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  .explorar::-webkit-scrollbar:horizontal {
+    height: 10px;
+  }
+  
+  .explorar::-webkit-scrollbar-thumb {
+    background-color: #7979794f;
+    border-radius: 20px;
+    border: 2px solid transparent;
+  }
+  
+  .explorar::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  
+  
+  /*  */
+
+/* head */
+.explorar-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+}
+
+.search-field {
+  padding: 12px 15px 12px 15px;
+  border-radius: 30px;
+  border: 0;
+  background: #000000;
+  width: 100%;
+  color: #fff;
+}
+
+/* nav */
+
+.explorar-nav{
+    width: 100%;
+}
+
+.explorar-nav-lista{
+    display: flex;
+    color: #fff;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    list-style: none;
+    justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 17px;
+}
+
+.explorar-nav-item:first-child::after{
+    content: " ";
+    margin-top: 13px;
+    width: 100%;
+    height: 4px;
+    display: block;
+    background-color: #1d9bf0;
+    border-radius: 90px;
+}
+/* content */
+
+.explorar-content{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 15px;
+    width: 100%;
+    min-height: 350px;
+}
+
+.explorar-content-resum{    
+    width: 100%;
+    min-height: 350px;
+    color: #fff;
+    background-image: url(https://pbs.twimg.com/semantic_core_img/1573456146882494464/jKggSv4V?format=jpg&name=small);
+    display: flex;
+    align-items: flex-end;
+}
+
+.explorar-content-resum h2{
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+.explorar-content-resum span{
+    margin: 0;
+}
+
+.explorar-content-sobre{
+    width: 100%;
+    box-shadow: inset #000000 0px -30px 100px 3px, #000000 -80px -40px 100px 4px,#000000 0px 10px 120px -57px,#000000 10px -30px 130px -37px;
+}
+
+/* explorar ten */
+
+.explorar-content-ten{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    align-items: center;
+    padding: 8px;
+}
+
+.explorar-content-tenden{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #fff;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.explorar-content-tenden span{
+    font-size: 13px;
+    line-height: 16px;
+    opacity: 0.4;
+}
+
+.explorar-content-tenden h2{
+    font-size: 15px;
+    line-height: 20px;
+}

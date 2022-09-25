@@ -1,0 +1,173 @@
+.perfil-content{
+    display: flex;
+    flex-direction: column;
+}
+
+/* perfil header */
+
+.perfil-header{
+    display: flex;
+    gap: 36px;
+}
+
+.perfil-header-info{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.perfil-header-info h3{
+    margin: 0;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.perfil-header-info span{
+    font-size: 13px;
+    line-height: 16px;
+    opacity: 0.4;
+}
+
+/*  */
+.perfil-fondo{
+    margin-top: 5px;
+    width: 598px;
+    height: 130px;
+    object-fit: cover;
+}
+
+/* user */
+.perfil-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil-conf{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil-conf img{
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    margin-top: -82px;
+    margin-left: 10px;
+}
+
+.perfil-conf button{
+    width: 151px;
+    height: 36px;
+    border: 1px solid #fff;
+    border-radius: 90px;
+    padding: 8px 17px;
+    background-color: #000000;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    margin-right: 40px;
+    margin-top: 12px;
+}
+
+/* Perfil user */
+
+.perfil-user{
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color:#fff;
+    margin-left: 5px;
+}
+
+.perfil-user b{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.perfil-user span{
+    font-size: 15px;
+    line-height: 20px;
+    opacity: 0.4;
+}
+
+/* fecha */
+.perfil-fecha{
+    margin-top: 18px;
+    display: flex;
+    gap: 12px;
+    justify-content: space-around;
+}
+
+.pefil-fecha-icon{
+    display: flex;
+    gap: 4px;
+    align-items: stretch;
+}
+.perfil-fecha p{
+    font-size: 15px;
+    line-height: 12px;
+    color: #fff;
+    opacity: 0.4;
+}
+
+/* saeguidores */
+
+.perfil-seguidores{
+    display: flex;
+    gap: 20px;
+    margin-top: 14px;
+
+}
+
+.perfil-seguidores-user{
+    display: flex;
+    gap: 4px;
+    align-items: flex-end;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* nav perfil */
+
+.perfil-nav-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil-nav-lista{
+    display: flex;
+    list-style: none;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.perfil-nav-item{
+    color: #fff;
+}
+
+.perfil-nav-item:first-child::after{
+    content: " ";
+    margin-top: 13px;
+    width: 100%;
+    height: 4px;
+    display: block;
+    background-color: #1d9bf0;
+    border-radius: 90px;
+}
+
+/* content nav */
+
+.perfil-nav-seguir{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left: 10px;
+}

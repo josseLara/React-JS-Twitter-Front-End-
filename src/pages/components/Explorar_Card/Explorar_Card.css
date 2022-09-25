@@ -1,0 +1,35 @@
+
+/* card explore */
+
+.explorar-content-card{
+    width: 100%;
+    display: flex;
+}
+
+.explorar-content-info{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 8px;
+}
+
+.explorar-content-info span {
+    opacity: 0.4;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.explorar-content-info b{
+    width: 80%;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.ex-content-info-img{
+    width: 84px;
+    height: 84px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 16px;
+}

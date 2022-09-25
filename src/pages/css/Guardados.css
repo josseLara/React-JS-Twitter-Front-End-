@@ -1,0 +1,55 @@
+.guardados {
+    flex: 2;
+    border-left: 1px solid #726f6f70;
+    border-right: 1px solid #726f6f70;
+    overflow-y: scroll;
+}
+
+/* barra de scroll */
+.guardados::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  
+  .guardados::-webkit-scrollbar:vertical {
+    width: 2px;
+  }
+  
+  .guardados::-webkit-scrollbar-button:increment,
+  .guardados::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+  .guardados::-webkit-scrollbar:horizontal {
+    height: 10px;
+  }
+  
+  .guardados::-webkit-scrollbar-thumb {
+    background-color: #7979794f;
+    border-radius: 20px;
+    border: 2px solid transparent;
+  }
+  
+  .guardados::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  
+  
+  /*  */
+.guardados .header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guardados .header svg {
+    margin-right: 20px;
+}
+
+.guardados .tweets {
+    margin-top: 10px;
+    border-top: 1px solid #726f6f70;
+    color: #fff;
+}
+
