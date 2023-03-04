@@ -1,7 +1,7 @@
 
 
 
-<h1> Previsualización </h1>
+<h1> React Twitter Front-End </h1>
 
 <h2>Inicio</h2>
 
