@@ -1,11 +1,11 @@
 import { ReactComponent as Svg_Configuracion } from '../img/svg_configuracion.svg';
 import { ReactComponent as Svg_Conf } from '../img/svg_conf.svg';
 
-import Left_Menu from "./components/Left_Menu/Left_Menu";
-import Right_Menu from "./components/Right_Menu/Right_Menu";
+import Left_Menu from "../components/Left_Menu/Left_Menu";
+import Right_Menu from "../components/Right_Menu/Right_Menu";
 
-import '../pages/css/Explorar.css'
-import Explorar_Card from './components/Explorar_Card/Explorar_Card';
+import './css/Explorar.css'
+import Explorar_Card from '../components/Explorar_Card/Explorar_Card';
 function Explorar() {
     return (
         <>

@@ -1,7 +1,7 @@
 
-import Left_Menu from "./components/Left_Menu/Left_Menu";
-import Right_Menu from "./components/Right_Menu/Right_Menu";
-import Tweet from "../pages/components/Tweet/Tweet";
+import Left_Menu from "../components/Left_Menu/Left_Menu";
+import Right_Menu from "../components/Right_Menu/Right_Menu";
+import Tweet from "../components/Tweet/Tweet";
 import "../pages/css/Guardados.css";
 
 import { ReactComponent as Svg_Conf } from '../img/svg_conf.svg';
@@ -38,16 +38,16 @@ function Guardados() {
                     {
                         usuario_tweets.map( ( props ) => {
                             return (
-                                <>
-                                    <Tweet
-                                        img_perfil={props.img_perfil}
-                                        nombre={props.tweet_message.nombre}
-                                        hora={props.tweet_message.hora}
-                                        texto={props.tweet_message.texto}
-                                        img={props.tweet_message.img}
-                                        key={Math.random()}
-                                    />
-                                </>
+
+                                <Tweet
+                                    key={Math.random()}
+                                    img_perfil={props.img_perfil}
+                                    nombre={props.tweet_message.nombre}
+                                    hora={props.tweet_message.hora}
+                                    texto={props.tweet_message.texto}
+                                    img={props.tweet_message.img}
+                                />
+
                             );
                         } )
                     }

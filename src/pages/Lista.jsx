@@ -1,5 +1,5 @@
-import Left_Menu from "./components/Left_Menu/Left_Menu";
-import Right_Menu from "./components/Right_Menu/Right_Menu";
+import Left_Menu from "../components/Left_Menu/Left_Menu";
+import Right_Menu from "../components/Right_Menu/Right_Menu";
 
 import "../pages/css/Lista.css"
 

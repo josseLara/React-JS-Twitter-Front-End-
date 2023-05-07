@@ -1,0 +1,80 @@
+ .tweets .tweet {
+  padding: 10px;
+  display: flex;
+  border-bottom: 1px solid #726f6f70;
+  flex-direction: column;
+}
+
+ .tweets .tweet .tweet-message {
+  padding: 0 10px 0 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.content-info-tweet {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tweet-info-user {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+
+
+ .tweets .tweet .tweet-message .tweet-image {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.tweet_num {
+  font-size: 13px;
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+.tweet-usuario {
+  display: flex;
+}
+
+.tweet-icons {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  justify-content: space-around;
+}
+
+.tweet-icon {
+  display: flex;
+  gap: 5px;
+  cursor: pointer;
+  fill: lightgray;
+  align-items: stretch;
+}
+
+.icon_1:hover,
+.icon_4:hover {
+  transition: 0.2s ease-in-out;
+  fill: #1d9bf0;
+  color: #1d9bf0;
+}
+
+.icon_2:hover {
+  transition: 0.2s ease-in-out;
+  fill: #00ba7c;
+  color: #00ba7c;
+}
+
+.icon_3:hover {
+  transition: 0.2s ease-in-out;
+  fill: #f91880;
+  color: #f91880;
+}

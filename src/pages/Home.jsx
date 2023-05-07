@@ -1,4 +1,4 @@
-import Tweet from "./components/Tweet/Tweet";
+import Tweet from "../components/Tweet/Tweet";
 import "./css/Home.css"
 
 import { ReactComponent as Svg_Destacado } from '../img/svg_destacado.svg';
@@ -9,8 +9,8 @@ import { ReactComponent as Svg_Emoji } from '../img/svg_emoji.svg';
 import { ReactComponent as Svg_Program } from '../img/svg_program.svg';
 import { ReactComponent as Svg_Ubicacion } from '../img/svg_ubicacion.svg';
 
-import Right_Menu from "./components/Right_Menu/Right_Menu";
-import Left_Menu from "./components/Left_Menu/Left_Menu";
+import Right_Menu from "../components/Right_Menu/Right_Menu";
+import Left_Menu from "../components/Left_Menu/Left_Menu";
 
 // informacion que va contener el Tweet
 const usuario_tweets = [{

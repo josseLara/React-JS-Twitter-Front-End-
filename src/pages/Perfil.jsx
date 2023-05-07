@@ -1,13 +1,13 @@
-import Left_Menu from "./components/Left_Menu/Left_Menu";
-import Right_Menu from "./components/Right_Menu/Right_Menu";
-import Tweet from './components/Tweet/Tweet'
+import Left_Menu from "../components/Left_Menu/Left_Menu";
+import Right_Menu from "../components/Right_Menu/Right_Menu";
+import Tweet from '../components/Tweet/Tweet'
 
 import { ReactComponent as Svg_Volver } from '../img/svg_volver.svg';
 import { ReactComponent as Svg_Cumple } from '../img/svg_cumple.svg';
 import { ReactComponent as Svg_Calendario } from '../img/svg_calendario.svg';
 
-import '../pages/css/Perfil.css';
-import Perfil_Nav_Seguir from "./components/Perfil_Nav_Seguir/Perfil_Nav_Seguir";
+import './css/Perfil.css';
+import Perfil_Nav_Seguir from "../components/Perfil_Nav_Seguir/Perfil_Nav_Seguir";
 
 function Perfil() {
 

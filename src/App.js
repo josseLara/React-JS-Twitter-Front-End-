@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 import './App.css';
-import Router from './pages/Router/Router'
+import Router from './Router/Router'
 import './pages/css/Home.css'
 function App() {
   return (

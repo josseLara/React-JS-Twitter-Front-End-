@@ -1,4 +1,4 @@
-import Left_Menu from "./components/Left_Menu/Left_Menu";
+import Left_Menu from "../components/Left_Menu/Left_Menu";
 
 import { ReactComponent as Svg_Configuracion } from '../img/svg_configuracion.svg';
 import { ReactComponent as Svg_Crear_Mensaje } from '../img/svg_crear_mensaje.svg';

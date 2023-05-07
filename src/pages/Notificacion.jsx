@@ -2,11 +2,11 @@ import { ReactComponent as Svg_Configuracion } from '../img/svg_configuracion.sv
 import { ReactComponent as Svg_NCard } from '../img/svg_ncard.svg';
 import { ReactComponent as Svg_Conf } from '../img/svg_conf.svg';
 
-import Left_Menu from './components/Left_Menu/Left_Menu';
-import Right_Menu from './components/Right_Menu/Right_Menu';
+import Left_Menu from '../components/Left_Menu/Left_Menu';
+import Right_Menu from '../components/Right_Menu/Right_Menu';
 
 import './css/Notificacion.css';
-import Notificacion_Card from './components/Notificacion_Card/Notificacion_Card';
+import Notificacion_Card from '../components/Notificacion_Card/Notificacion_Card';
 function Notificacion() {
     return (
 

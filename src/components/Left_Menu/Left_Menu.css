@@ -1,0 +1,146 @@
+.left-menu {
+  max-width: fit-content;
+  max-width: -moz-fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 4px;
+  justify-content: flex-start;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
+.ico-twitter{
+  display: flex;
+  justify-content: start;
+  padding-left: 22px;
+  padding-right: 17px;
+  margin-top: 10px;
+}
+.ico-twitter svg{
+  fill: #fff;
+}
+
+.left-menu .menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.left-menu .menu li {
+  padding: 15px 0 15px 0;
+}
+
+
+
+.left-menu .menu li .menu-link {
+  font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  display: flex;
+  gap: 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: start;
+  font-weight: normal;
+  font-size: 20px;
+  color: #fff;
+  line-height: 24px;
+
+}
+
+.left-menu .menu li .menu-link .far,
+.left-menu .menu li .menu-link .fas {
+  width: 30px;
+}
+
+.left-menu .menu li .menu-link:hover {
+  transition: 1ms ease-in-out;
+  font-weight: bold;
+}
+
+.my-perfil{
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 40px;
+  padding: 19px 19px;
+  align-items: center;
+}
+
+.my-perfil-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.my-perfil-info{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.my-perfil-info span{
+  opacity: 0.4;
+}
+
+.my-prefil-conf{
+  margin-left: 36px;
+}
+
+/* respose */
+
+
+@media (max-width: 600px) {
+  .left-menu {
+    display: inline;
+  }
+}
+
+
+@media (max-width: 1200px) {
+  .left-menu {
+    width: 90px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .left-menu .menu {
+    align-items: center;
+    padding: 10px 0 10px 0;
+  }
+
+  .left-menu .menu li a .far,
+  .left-menu .menu li a .fas {
+    width: auto;
+    font-size: 20px;
+  }
+
+  .left-menu .menu li a .label {
+    display: none;
+
+  }
+
+  .left-menu .big-button {
+    width: auto;
+    cursor: pointer;
+  }
+
+  .left-menu .big-button .label {
+    display: none;
+  }
+
+  .left-menu .big-button .fas {
+    display: block;
+  }
+
+  .my-perfil{
+    flex-direction: column;
+    align-content: center;
+  }
+  .my-perfil-info{
+    display: none;
+  }
+  .my-prefil-conf{
+    display: none;
+  }
+}

@@ -1,0 +1,45 @@
+
+.notificacion-card {
+    padding: 13px 35px;
+    border: 1px solid #726f6f48;
+}
+
+.notificacion-user {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notificacion_info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.notificacion-user-img {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+}
+
+.noificacion_mensaje {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.noificacion_mensaje span {
+
+    line-height: 20px;
+}
+
+.noificacion_mensaje p {
+    line-height: 20px;
+    text-align: justify;
+    opacity: 0.4;
+}
